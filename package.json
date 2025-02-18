@@ -2,7 +2,7 @@
   "name": "e-commerce",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Abraam-said.github.io/E-commerce-Website",
+  "homepage": "https://Abraam-said.github.io/recipe-website",
   "type": "module",
   "scripts": {
     "dev": "vite",

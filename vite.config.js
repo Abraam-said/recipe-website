@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
   tailwindcss(),
   ],
-  base: "/E-commerce-Website/"
+  base: "/recipe-website/"
 })
