@@ -1,0 +1,92 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f8f3;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d16e44;
+    margin-bottom: 20px;
+}
+
+/* Categories Buttons */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.categoryButton {
+    background: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.activeButton {
+    background: #d16e44;
+    color: white;
+    font-weight: bold;
+}
+
+.categoryButton:hover {
+    background: #b55430;
+    color: white;
+}
+
+/* Search Bar */
+.searchBar {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #d16e44;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.mealGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mealCard {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.mealImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mealTitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.recipeButton {
+    background: #d16e44;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recipeButton:hover {
+    background: #b55430;
+}

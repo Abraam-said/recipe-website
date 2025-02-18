@@ -1,0 +1,36 @@
+.layout {
+    display: flex;
+    height: 100vh;
+
+    .sidebar {
+        width: 250px;
+        background-color: #F9FAFB;
+        padding: 20px;
+        position: fixed;
+        height: 100vh;
+        left: 0;
+        top: 0;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 250px;
+        min-height: 100vh;
+    }
+
+    .content {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #F4F2EE;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
